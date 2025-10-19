@@ -1,0 +1,44 @@
+everyday-market/
+│
+├── client/                          
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/             
+│   │   ├── pages/                   
+│   │   ├── context/                 
+│   │   ├── hooks/                  
+│   │   ├── services/              
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.js               
+│
+├── server/                         
+│   ├── config/
+│   │   ├── db.js                    
+│   │   └── stripe.js               
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── orderController.js
+│   │   └── paymentController.js
+│   ├── models/
+│   │   ├── productModel.js
+│   │   ├── userModel.js
+│   │   └── orderModel.js
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── orderRoutes.js
+│   │   └── paymentRoutes.js
+│   ├── utils/
+│   │   └── errorHandler.js
+│   ├── .env.example                 
+│   ├── server.js                    
+│   ├── package.json
+│   └── README.md
+│
+├── .gitignore                       
+├── README.md
+└── LICENSE
